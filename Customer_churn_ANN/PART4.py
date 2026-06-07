@@ -60,7 +60,7 @@ with open("Customer_churn_ANN/label_encoder_gender.pkl", "rb") as file:
 with open("Customer_churn_ANN/onehot_encoder_geo.pkl", "rb") as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open("scaler.pkl", "rb") as file:
+with open("Customer_churn_ANN/scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # --------------------------------------------------
